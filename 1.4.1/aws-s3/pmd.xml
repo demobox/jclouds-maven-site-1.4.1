@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-06-21T18:22:15.791">
+<pmd version="4.2.5" timestamp="2012-06-22T13:12:06.411">
 <file name="/scratch/hudson/workspace/jclouds-maven-site-1.4.1/providers/aws-s3/src/main/java/org/jclouds/aws/s3/AWSS3AsyncClient.java">
 <violation beginline="25" endline="25" begincolumn="1" endcolumn="66" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'org.jclouds.aws.s3.blobstore.options.AWSS3PutObjectOptions'
