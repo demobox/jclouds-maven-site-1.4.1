@@ -58,7 +58,7 @@
 <a class="jxr_linenumber" name="48" href="#48">48</a>     <strong class="jxr_keyword">public</strong> Image apply(<a href="../../../../../org/jclouds/glesys/domain/OSTemplate.html">OSTemplate</a> template) {
 <a class="jxr_linenumber" name="49" href="#49">49</a>        checkNotNull(template, <span class="jxr_string">"template"</span>);
 <a class="jxr_linenumber" name="50" href="#50">50</a>        OsFamilyVersion64Bit parsed = osParser.apply(template.getName());
-<a class="jxr_linenumber" name="51" href="#51">51</a>        <a href="../../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> builder = OperatingSystem.builder();
+<a class="jxr_linenumber" name="51" href="#51">51</a>        <a href="../../../../../org/jclouds/glesys/domain/Server.html">Builder</a> builder = OperatingSystem.builder();
 <a class="jxr_linenumber" name="52" href="#52">52</a>        builder.name(template.getName()).description(template.getName()).is64Bit(parsed.is64Bit).version(parsed.version)
 <a class="jxr_linenumber" name="53" href="#53">53</a>                 .family(parsed.family);
 <a class="jxr_linenumber" name="54" href="#54">54</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ImageBuilder().ids(template.getName()).name(template.getName()).description(template.getName())

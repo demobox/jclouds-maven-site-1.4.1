@@ -41,32 +41,32 @@
 <a class="jxr_linenumber" name="31" href="#31">31</a>  <em class="jxr_comment">//TODO: find a better name for this class</em>
 <a class="jxr_linenumber" name="32" href="#32">32</a>  @Beta
 <a class="jxr_linenumber" name="33" href="#33">33</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/glesys/domain/EmailOverviewSummary.html">EmailOverviewSummary</a> {
-<a class="jxr_linenumber" name="34" href="#34">34</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> builder() {
-<a class="jxr_linenumber" name="35" href="#35">35</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a>();
+<a class="jxr_linenumber" name="34" href="#34">34</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> builder() {
+<a class="jxr_linenumber" name="35" href="#35">35</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a>();
 <a class="jxr_linenumber" name="36" href="#36">36</a>     }
 <a class="jxr_linenumber" name="37" href="#37">37</a>  
-<a class="jxr_linenumber" name="38" href="#38">38</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> {
+<a class="jxr_linenumber" name="38" href="#38">38</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> {
 <a class="jxr_linenumber" name="39" href="#39">39</a>        <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> accounts;
 <a class="jxr_linenumber" name="40" href="#40">40</a>        <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> maxAccounts;
 <a class="jxr_linenumber" name="41" href="#41">41</a>        <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> aliases;
 <a class="jxr_linenumber" name="42" href="#42">42</a>        <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">int</strong> maxAliases;
 <a class="jxr_linenumber" name="43" href="#43">43</a>  
-<a class="jxr_linenumber" name="44" href="#44">44</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> accounts(<strong class="jxr_keyword">int</strong> accounts) {
+<a class="jxr_linenumber" name="44" href="#44">44</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> accounts(<strong class="jxr_keyword">int</strong> accounts) {
 <a class="jxr_linenumber" name="45" href="#45">45</a>           <strong class="jxr_keyword">this</strong>.accounts = accounts;
 <a class="jxr_linenumber" name="46" href="#46">46</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="47" href="#47">47</a>        }
 <a class="jxr_linenumber" name="48" href="#48">48</a>        
-<a class="jxr_linenumber" name="49" href="#49">49</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> maxAccounts(<strong class="jxr_keyword">int</strong> maxAccounts) {
+<a class="jxr_linenumber" name="49" href="#49">49</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> maxAccounts(<strong class="jxr_keyword">int</strong> maxAccounts) {
 <a class="jxr_linenumber" name="50" href="#50">50</a>           <strong class="jxr_keyword">this</strong>.maxAccounts = maxAccounts;
 <a class="jxr_linenumber" name="51" href="#51">51</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="52" href="#52">52</a>        }
 <a class="jxr_linenumber" name="53" href="#53">53</a>        
-<a class="jxr_linenumber" name="54" href="#54">54</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> aliases(<strong class="jxr_keyword">int</strong> aliases) {
+<a class="jxr_linenumber" name="54" href="#54">54</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> aliases(<strong class="jxr_keyword">int</strong> aliases) {
 <a class="jxr_linenumber" name="55" href="#55">55</a>           <strong class="jxr_keyword">this</strong>.aliases = aliases;
 <a class="jxr_linenumber" name="56" href="#56">56</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="57" href="#57">57</a>        }
 <a class="jxr_linenumber" name="58" href="#58">58</a>        
-<a class="jxr_linenumber" name="59" href="#59">59</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> maxAliases(<strong class="jxr_keyword">int</strong> maxAliases) {
+<a class="jxr_linenumber" name="59" href="#59">59</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> maxAliases(<strong class="jxr_keyword">int</strong> maxAliases) {
 <a class="jxr_linenumber" name="60" href="#60">60</a>           <strong class="jxr_keyword">this</strong>.maxAliases = maxAliases;
 <a class="jxr_linenumber" name="61" href="#61">61</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="62" href="#62">62</a>        }
@@ -75,7 +75,7 @@
 <a class="jxr_linenumber" name="65" href="#65">65</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../org/jclouds/glesys/domain/EmailOverviewSummary.html">EmailOverviewSummary</a>(accounts, maxAccounts, aliases, maxAliases);
 <a class="jxr_linenumber" name="66" href="#66">66</a>        }
 <a class="jxr_linenumber" name="67" href="#67">67</a>        
-<a class="jxr_linenumber" name="68" href="#68">68</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/ResourceUsage.html">Builder</a> fromEmailOverview(<a href="../../../../org/jclouds/glesys/domain/EmailOverviewSummary.html">EmailOverviewSummary</a> in) {
+<a class="jxr_linenumber" name="68" href="#68">68</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/glesys/domain/Server.html">Builder</a> fromEmailOverview(<a href="../../../../org/jclouds/glesys/domain/EmailOverviewSummary.html">EmailOverviewSummary</a> in) {
 <a class="jxr_linenumber" name="69" href="#69">69</a>           <strong class="jxr_keyword">return</strong> accounts(in.getAccounts()).maxAccounts(in.getMaxAccounts()).aliases(in.getAliases()).maxAliases(in.getMaxAliases());
 <a class="jxr_linenumber" name="70" href="#70">70</a>        }
 <a class="jxr_linenumber" name="71" href="#71">71</a>     }
