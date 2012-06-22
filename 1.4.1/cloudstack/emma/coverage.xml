@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Thu Jun 21 14:24:32 EDT 2012 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Jun 22 10:40:18 EDT 2012 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="87%  (385/445)"/>
       <coverage type="method, %" value="58%  (2089/3582)"/>
-      <coverage type="block, %" value="61%  (30358/49622)"/>
-      <coverage type="line, %" value="56%  (4854.8/8724)"/>
+      <coverage type="block, %" value="61%  (30366/49622)"/>
+      <coverage type="line, %" value="56%  (4856.8/8724)"/>
 
       <package name="org.jclouds.cloudstack.util">
         <coverage type="class, %" value="50%  (1/2)"/>
@@ -576,8 +576,8 @@
       <package name="org.jclouds.cloudstack.domain">
         <coverage type="class, %" value="81%  (120/148)"/>
         <coverage type="method, %" value="51%  (1019/1984)"/>
-        <coverage type="block, %" value="58%  (18914/32673)"/>
-        <coverage type="line, %" value="50%  (2865.9/5723)"/>
+        <coverage type="block, %" value="58%  (18922/32673)"/>
+        <coverage type="line, %" value="50%  (2867.9/5723)"/>
 
         <srcfile name="Event.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -11351,14 +11351,51 @@
         <srcfile name="AsyncJob.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="84%  (52/62)"/>
-          <coverage type="block, %" value="88%  (807/916)"/>
-          <coverage type="line, %" value="79%  (140.5/178)"/>
+          <coverage type="block, %" value="89%  (815/916)"/>
+          <coverage type="line, %" value="80%  (142.5/178)"/>
 
+          <class name="AsyncJob$ResultCode">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="86%  (61/71)"/>
+            <coverage type="line, %" value="79%  (11.9/15)"/>
+
+            <method name="valueOf (String): AsyncJob$ResultCode">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): AsyncJob$ResultCode">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (9/14)"/>
+              <coverage type="line, %" value="57%  (4/7)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="AsyncJob$ResultCode (String, int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="code (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): AsyncJob$ResultCode []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
           <class name="AsyncJob">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="76%  (26/34)"/>
-            <coverage type="block, %" value="85%  (510/599)"/>
-            <coverage type="line, %" value="72%  (78.7/110)"/>
+            <coverage type="block, %" value="86%  (518/599)"/>
+            <coverage type="line, %" value="73%  (80.7/110)"/>
 
             <method name="getAccountId (): long">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -11402,8 +11439,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="68%  (115/169)"/>
-              <coverage type="line, %" value="56%  (29/52)"/>
+              <coverage type="block, %" value="73%  (123/169)"/>
+              <coverage type="line, %" value="60%  (31/52)"/>
             </method>
             <method name="hasSucceed (): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11528,43 +11565,6 @@
             <method name="toString (): String">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (78/78)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="AsyncJob$ResultCode">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="83%  (5/6)"/>
-            <coverage type="block, %" value="86%  (61/71)"/>
-            <coverage type="line, %" value="79%  (11.9/15)"/>
-
-            <method name="valueOf (String): AsyncJob$ResultCode">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="fromValue (String): AsyncJob$ResultCode">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (9/14)"/>
-              <coverage type="line, %" value="57%  (4/7)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (37/37)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="AsyncJob$ResultCode (String, int, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="code (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="values (): AsyncJob$ResultCode []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>

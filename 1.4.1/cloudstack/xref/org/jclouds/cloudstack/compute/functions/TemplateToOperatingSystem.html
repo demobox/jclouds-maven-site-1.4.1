@@ -78,7 +78,7 @@
 <a class="jxr_linenumber" name="68" href="#68">68</a>     }
 <a class="jxr_linenumber" name="69" href="#69">69</a>  
 <a class="jxr_linenumber" name="70" href="#70">70</a>     <strong class="jxr_keyword">public</strong> OperatingSystem apply(<a href="../../../../../org/jclouds/cloudstack/domain/Template.html">Template</a> from) {
-<a class="jxr_linenumber" name="71" href="#71">71</a>        <a href="../../../../../org/jclouds/cloudstack/domain/TemplatePermission.html">Builder</a> builder = OperatingSystem.builder().description(from.getOSType());
+<a class="jxr_linenumber" name="71" href="#71">71</a>        <a href="../../../../../org/jclouds/cloudstack/domain/ResourceLimit.html">Builder</a> builder = OperatingSystem.builder().description(from.getOSType());
 <a class="jxr_linenumber" name="72" href="#72">72</a>  
 <a class="jxr_linenumber" name="73" href="#73">73</a>        <a href="../../../../../org/jclouds/cloudstack/domain/OSType.html">OSType</a> type = osTypes.get().get(from.getOSTypeId());
 <a class="jxr_linenumber" name="74" href="#74">74</a>        <strong class="jxr_keyword">if</strong> (type == <strong class="jxr_keyword">null</strong>) {

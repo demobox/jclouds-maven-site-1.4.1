@@ -65,11 +65,11 @@
 <a class="jxr_linenumber" name="55" href="#55">55</a>     @Singleton
 <a class="jxr_linenumber" name="56" href="#56">56</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/cloudstack/config/CloudStackParserModule.html">PortForwardingRuleAdapter</a> <strong class="jxr_keyword">implements</strong> JsonSerializer&lt;PortForwardingRule&gt;, JsonDeserializer&lt;PortForwardingRule&gt; {
 <a class="jxr_linenumber" name="57" href="#57">57</a>  
-<a class="jxr_linenumber" name="58" href="#58">58</a>        <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/PortForwardingRule.html">PortForwardingRule</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfSrc, JsonSerializationContext context) {
+<a class="jxr_linenumber" name="58" href="#58">58</a>        <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/PortForwardingRule.html">PortForwardingRule</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfSrc, JsonSerializationContext context) {
 <a class="jxr_linenumber" name="59" href="#59">59</a>           <strong class="jxr_keyword">return</strong> context.serialize(src);
 <a class="jxr_linenumber" name="60" href="#60">60</a>        }
 <a class="jxr_linenumber" name="61" href="#61">61</a>  
-<a class="jxr_linenumber" name="62" href="#62">62</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/PortForwardingRule.html">PortForwardingRule</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfT, JsonDeserializationContext context)
+<a class="jxr_linenumber" name="62" href="#62">62</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/PortForwardingRule.html">PortForwardingRule</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfT, JsonDeserializationContext context)
 <a class="jxr_linenumber" name="63" href="#63">63</a>           <strong class="jxr_keyword">throws</strong> JsonParseException {
 <a class="jxr_linenumber" name="64" href="#64">64</a>           <strong class="jxr_keyword">return</strong> apply(context.&lt;PortForwardingRuleInternal&gt;deserialize(json, PortForwardingRuleInternal.<strong class="jxr_keyword">class</strong>));
 <a class="jxr_linenumber" name="65" href="#65">65</a>        }
@@ -119,11 +119,11 @@
 <a class="jxr_linenumber" name="109" href="#109">109</a>    @Singleton
 <a class="jxr_linenumber" name="110" href="#110">110</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/cloudstack/config/CloudStackParserModule.html">FirewallRuleAdapter</a> <strong class="jxr_keyword">implements</strong> JsonSerializer&lt;FirewallRule&gt;, JsonDeserializer&lt;FirewallRule&gt; {
 <a class="jxr_linenumber" name="111" href="#111">111</a> 
-<a class="jxr_linenumber" name="112" href="#112">112</a>       <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/FirewallRule.html">FirewallRule</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfSrc, JsonSerializationContext context) {
+<a class="jxr_linenumber" name="112" href="#112">112</a>       <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/FirewallRule.html">FirewallRule</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfSrc, JsonSerializationContext context) {
 <a class="jxr_linenumber" name="113" href="#113">113</a>          <strong class="jxr_keyword">return</strong> context.serialize(src);
 <a class="jxr_linenumber" name="114" href="#114">114</a>       }
 <a class="jxr_linenumber" name="115" href="#115">115</a> 
-<a class="jxr_linenumber" name="116" href="#116">116</a>       <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/FirewallRule.html">FirewallRule</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfT, JsonDeserializationContext context)
+<a class="jxr_linenumber" name="116" href="#116">116</a>       <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/FirewallRule.html">FirewallRule</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfT, JsonDeserializationContext context)
 <a class="jxr_linenumber" name="117" href="#117">117</a>          <strong class="jxr_keyword">throws</strong> JsonParseException {
 <a class="jxr_linenumber" name="118" href="#118">118</a>          <strong class="jxr_keyword">return</strong> apply(context.&lt;FirewallRuleInternal&gt;deserialize(json, FirewallRuleInternal.<strong class="jxr_keyword">class</strong>));
 <a class="jxr_linenumber" name="119" href="#119">119</a>       }
@@ -165,11 +165,11 @@
 <a class="jxr_linenumber" name="155" href="#155">155</a>    @Singleton
 <a class="jxr_linenumber" name="156" href="#156">156</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/cloudstack/config/CloudStackParserModule.html">LoadBalancerRuleAdapter</a> <strong class="jxr_keyword">implements</strong> JsonSerializer&lt;LoadBalancerRule&gt;, JsonDeserializer&lt;LoadBalancerRule&gt; {
 <a class="jxr_linenumber" name="157" href="#157">157</a> 
-<a class="jxr_linenumber" name="158" href="#158">158</a>       <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/LoadBalancerRule.html">LoadBalancerRule</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfSrc, JsonSerializationContext context) {
+<a class="jxr_linenumber" name="158" href="#158">158</a>       <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/LoadBalancerRule.html">LoadBalancerRule</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfSrc, JsonSerializationContext context) {
 <a class="jxr_linenumber" name="159" href="#159">159</a>          <strong class="jxr_keyword">return</strong> context.serialize(src);
 <a class="jxr_linenumber" name="160" href="#160">160</a>       }
 <a class="jxr_linenumber" name="161" href="#161">161</a> 
-<a class="jxr_linenumber" name="162" href="#162">162</a>       <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/LoadBalancerRule.html">LoadBalancerRule</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfT, JsonDeserializationContext context)
+<a class="jxr_linenumber" name="162" href="#162">162</a>       <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/LoadBalancerRule.html">LoadBalancerRule</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfT, JsonDeserializationContext context)
 <a class="jxr_linenumber" name="163" href="#163">163</a>          <strong class="jxr_keyword">throws</strong> JsonParseException {
 <a class="jxr_linenumber" name="164" href="#164">164</a>          <strong class="jxr_keyword">return</strong> apply(context.&lt;LoadBalancerRuleInternal&gt;deserialize(json, LoadBalancerRuleInternal.<strong class="jxr_keyword">class</strong>));
 <a class="jxr_linenumber" name="165" href="#165">165</a>       }
@@ -210,11 +210,11 @@
 <a class="jxr_linenumber" name="200" href="#200">200</a>    @Singleton
 <a class="jxr_linenumber" name="201" href="#201">201</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../org/jclouds/cloudstack/config/CloudStackParserModule.html">BreakGenericSetAdapter</a> <strong class="jxr_keyword">implements</strong> JsonSerializer&lt;Account&gt;, JsonDeserializer&lt;Account&gt; {
 <a class="jxr_linenumber" name="202" href="#202">202</a> 
-<a class="jxr_linenumber" name="203" href="#203">203</a>       <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/Account.html">Account</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfSrc, JsonSerializationContext context) {
+<a class="jxr_linenumber" name="203" href="#203">203</a>       <strong class="jxr_keyword">public</strong> JsonElement serialize(<a href="../../../../org/jclouds/cloudstack/domain/Account.html">Account</a> src, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfSrc, JsonSerializationContext context) {
 <a class="jxr_linenumber" name="204" href="#204">204</a>          <strong class="jxr_keyword">return</strong> context.serialize(src);
 <a class="jxr_linenumber" name="205" href="#205">205</a>       }
 <a class="jxr_linenumber" name="206" href="#206">206</a> 
-<a class="jxr_linenumber" name="207" href="#207">207</a>       <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/Account.html">Account</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">Type</a> typeOfT, JsonDeserializationContext context)
+<a class="jxr_linenumber" name="207" href="#207">207</a>       <strong class="jxr_keyword">public</strong> <a href="../../../../org/jclouds/cloudstack/domain/Account.html">Account</a> deserialize(JsonElement json, <a href="../../../../org/jclouds/cloudstack/domain/Capacity.html">Type</a> typeOfT, JsonDeserializationContext context)
 <a class="jxr_linenumber" name="208" href="#208">208</a>          <strong class="jxr_keyword">throws</strong> JsonParseException {
 <a class="jxr_linenumber" name="209" href="#209">209</a>          <strong class="jxr_keyword">return</strong> apply(context.&lt;AccountInternal&gt;deserialize(json, AccountInternal.<strong class="jxr_keyword">class</strong>));
 <a class="jxr_linenumber" name="210" href="#210">210</a>       }
@@ -260,7 +260,7 @@
 <a class="jxr_linenumber" name="250" href="#250">250</a>          @SerializedName(<span class="jxr_string">"snapshottotal"</span>)
 <a class="jxr_linenumber" name="251" href="#251">251</a>          <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">long</strong> snapshots;
 <a class="jxr_linenumber" name="252" href="#252">252</a>          @SerializedName(<span class="jxr_string">"state"</span>)
-<a class="jxr_linenumber" name="253" href="#253">253</a>          <strong class="jxr_keyword">private</strong> <a href="../../../../org/jclouds/cloudstack/domain/Volume.html">State</a> state;
+<a class="jxr_linenumber" name="253" href="#253">253</a>          <strong class="jxr_keyword">private</strong> <a href="../../../../org/jclouds/cloudstack/domain/Host.html">State</a> state;
 <a class="jxr_linenumber" name="254" href="#254">254</a>          @SerializedName(<span class="jxr_string">"templateavailable"</span>)
 <a class="jxr_linenumber" name="255" href="#255">255</a>          <strong class="jxr_keyword">private</strong> String templatesAvailable;
 <a class="jxr_linenumber" name="256" href="#256">256</a>          @SerializedName(<span class="jxr_string">"templatelimit"</span>)
