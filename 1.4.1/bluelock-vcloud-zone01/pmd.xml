@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-06-21T19:13:33.524">
+<pmd version="4.2.5" timestamp="2012-06-22T14:06:28.289">
 <file name="/scratch/hudson/workspace/jclouds-maven-site-1.4.1/providers/bluelock-vcloud-zone01/src/main/java/org/jclouds/bluelock/vcloud/zone01/BluelockVCloudZone01PropertiesBuilder.java">
 <violation beginline="22" endline="22" begincolumn="15" endcolumn="58" rule="DuplicateImports" ruleset="Import Statement Rules" package="org.jclouds.bluelock.vcloud.zone01" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#DuplicateImports" priority="4">
 Avoid duplicate imports such as 'org.jclouds.Constants.PROPERTY_ISO3166_CODES'
