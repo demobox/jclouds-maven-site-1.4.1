@@ -37,28 +37,28 @@
 <a class="jxr_linenumber" name="27" href="#27">27</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/NetworkConnectionSection.html">NetworkConnectionSection</a> <strong class="jxr_keyword">extends</strong> Section&lt;NetworkConnectionSection&gt; {
 <a class="jxr_linenumber" name="28" href="#28">28</a>  
 <a class="jxr_linenumber" name="29" href="#29">29</a>     @SuppressWarnings(<span class="jxr_string">"unchecked"</span>)
-<a class="jxr_linenumber" name="30" href="#30">30</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> builder() {
-<a class="jxr_linenumber" name="31" href="#31">31</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a>();
+<a class="jxr_linenumber" name="30" href="#30">30</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> builder() {
+<a class="jxr_linenumber" name="31" href="#31">31</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a>();
 <a class="jxr_linenumber" name="32" href="#32">32</a>     }
 <a class="jxr_linenumber" name="33" href="#33">33</a>  
 <a class="jxr_linenumber" name="34" href="#34">34</a>     <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="35" href="#35">35</a>  <em class="jxr_javadoccomment">    * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="36" href="#36">36</a>  <em class="jxr_javadoccomment">    */</em>
 <a class="jxr_linenumber" name="37" href="#37">37</a>     @Override
-<a class="jxr_linenumber" name="38" href="#38">38</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> toBuilder() {
+<a class="jxr_linenumber" name="38" href="#38">38</a>     <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> toBuilder() {
 <a class="jxr_linenumber" name="39" href="#39">39</a>        <strong class="jxr_keyword">return</strong> builder().fromNetworkConectionSection(<strong class="jxr_keyword">this</strong>);
 <a class="jxr_linenumber" name="40" href="#40">40</a>     }
 <a class="jxr_linenumber" name="41" href="#41">41</a>  
-<a class="jxr_linenumber" name="42" href="#42">42</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> <strong class="jxr_keyword">extends</strong> Section.Builder&lt;NetworkConnectionSection&gt; {
+<a class="jxr_linenumber" name="42" href="#42">42</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> <strong class="jxr_keyword">extends</strong> Section.Builder&lt;NetworkConnectionSection&gt; {
 <a class="jxr_linenumber" name="43" href="#43">43</a>        <strong class="jxr_keyword">private</strong> String network;
 <a class="jxr_linenumber" name="44" href="#44">44</a>        <strong class="jxr_keyword">private</strong> String ipAddress;
 <a class="jxr_linenumber" name="45" href="#45">45</a>  
-<a class="jxr_linenumber" name="46" href="#46">46</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> network(String network) {
+<a class="jxr_linenumber" name="46" href="#46">46</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> network(String network) {
 <a class="jxr_linenumber" name="47" href="#47">47</a>           <strong class="jxr_keyword">this</strong>.network = network;
 <a class="jxr_linenumber" name="48" href="#48">48</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="49" href="#49">49</a>        }
 <a class="jxr_linenumber" name="50" href="#50">50</a>  
-<a class="jxr_linenumber" name="51" href="#51">51</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> ipAddress(String ipAddress) {
+<a class="jxr_linenumber" name="51" href="#51">51</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> ipAddress(String ipAddress) {
 <a class="jxr_linenumber" name="52" href="#52">52</a>           <strong class="jxr_keyword">this</strong>.ipAddress = ipAddress;
 <a class="jxr_linenumber" name="53" href="#53">53</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>;
 <a class="jxr_linenumber" name="54" href="#54">54</a>        }
@@ -71,7 +71,7 @@
 <a class="jxr_linenumber" name="61" href="#61">61</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/NetworkConnectionSection.html">NetworkConnectionSection</a>(info, network, ipAddress);
 <a class="jxr_linenumber" name="62" href="#62">62</a>        }
 <a class="jxr_linenumber" name="63" href="#63">63</a>  
-<a class="jxr_linenumber" name="64" href="#64">64</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> fromNetworkConectionSection(<a href="../../../../../org/jclouds/savvis/vpdc/domain/NetworkConnectionSection.html">NetworkConnectionSection</a> in) {
+<a class="jxr_linenumber" name="64" href="#64">64</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> fromNetworkConectionSection(<a href="../../../../../org/jclouds/savvis/vpdc/domain/NetworkConnectionSection.html">NetworkConnectionSection</a> in) {
 <a class="jxr_linenumber" name="65" href="#65">65</a>           <strong class="jxr_keyword">return</strong> fromSection(in).network(in.getNetwork()).ipAddress(in.getIpAddress());
 <a class="jxr_linenumber" name="66" href="#66">66</a>        }
 <a class="jxr_linenumber" name="67" href="#67">67</a>  
@@ -79,7 +79,7 @@
 <a class="jxr_linenumber" name="69" href="#69">69</a>  <em class="jxr_javadoccomment">       * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="70" href="#70">70</a>  <em class="jxr_javadoccomment">       */</em>
 <a class="jxr_linenumber" name="71" href="#71">71</a>        @Override
-<a class="jxr_linenumber" name="72" href="#72">72</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> fromSection(Section&lt;NetworkConnectionSection&gt; in) {
+<a class="jxr_linenumber" name="72" href="#72">72</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> fromSection(Section&lt;NetworkConnectionSection&gt; in) {
 <a class="jxr_linenumber" name="73" href="#73">73</a>           <strong class="jxr_keyword">return</strong> Builder.<strong class="jxr_keyword">class</strong>.<strong class="jxr_keyword">cast</strong>(<strong class="jxr_keyword">super</strong>.fromSection(in));
 <a class="jxr_linenumber" name="74" href="#74">74</a>        }
 <a class="jxr_linenumber" name="75" href="#75">75</a>  
@@ -87,7 +87,7 @@
 <a class="jxr_linenumber" name="77" href="#77">77</a>  <em class="jxr_javadoccomment">       * {@inheritDoc}</em>
 <a class="jxr_linenumber" name="78" href="#78">78</a>  <em class="jxr_javadoccomment">       */</em>
 <a class="jxr_linenumber" name="79" href="#79">79</a>        @Override
-<a class="jxr_linenumber" name="80" href="#80">80</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/VDC.html">Builder</a> info(String info) {
+<a class="jxr_linenumber" name="80" href="#80">80</a>        <strong class="jxr_keyword">public</strong> <a href="../../../../../org/jclouds/savvis/vpdc/domain/TaskError.html">Builder</a> info(String info) {
 <a class="jxr_linenumber" name="81" href="#81">81</a>           <strong class="jxr_keyword">return</strong> Builder.<strong class="jxr_keyword">class</strong>.<strong class="jxr_keyword">cast</strong>(<strong class="jxr_keyword">super</strong>.info(info));
 <a class="jxr_linenumber" name="82" href="#82">82</a>        }
 <a class="jxr_linenumber" name="83" href="#83">83</a>  
