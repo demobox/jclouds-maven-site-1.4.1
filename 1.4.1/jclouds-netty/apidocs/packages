@@ -1,2 +1,2 @@
-org.jclouds.netty.config
 org.jclouds.netty.io
+org.jclouds.netty.config
